@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(203, 228, 230);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background-color: rgb(44, 63, 71);
+    color: white;
+    padding: 20px 200px 20px 200px; 
+    border-radius: 10px;
+}
+
+.container-btn {
+  display: flex;
+}
+
+.input-saisie {
+    display: flex; 
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 47px;
+    width: 310px;
+    border: none;
+    border-radius: 4px; 
+    margin-right: 10px;
+}
+
+button {
+    width: 110px; 
+    border: none;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#delete {
+  margin-left: 5px;
+  background-color: brown;
+  color: white;
+}
+
+#delete:hover {
+  background-color: rgb(121, 31, 31);
+}
+
+#add:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.newDiv {
+    background-color: rgb(44, 63, 71); 
+    color: white;
+    margin-bottom: 5px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    display: flex;
+}
+
+#check {
+    width: 15px;
+    cursor: pointer; 
+    border: none;
+}
+
+.label {
+    margin-top: 16px;
+}
+
+.task-done {
+  text-decoration: line-through;
+}
+
+.newDiv.active {
+  background-color: rgb(20, 31, 36);
+}
+
+
+/*.one {
+    grid-area: 1, 1, 2, 2;
+    display: flex;
+    flex-direction: row;
+}
+
+.two {
+    grid-area: 1, 2, 2, 3;
+}
+
+.delete {
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 2px;
+    float: right;
+    background-color: brown;
+    color: white;
+}
+
+.delete:hover {
+    background-color: rgb(121, 31, 31);
+}*/
+
+
+@media screen and (max-width: 550px) {    
+    h1 {
+        padding: 20px 100px 20px 100px; 
+    }
+    
+    .input-saisie { 
+        margin-top: 50px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    input {
+        height: 47px;
+        width: 96%;
+        border-radius: 4px;
+    }
+    
+    button { 
+        height: 40px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+    /*#delete {
+        margin-left: 10px;
+    }*/
+    
+    .newDiv {
+        margin-bottom: 5px;
+        padding: 8px 5px 8px 5px;
+    }
+
+    #check {
+        width: 20px;
+    }
+}
